@@ -19,11 +19,16 @@ It includes notes from:
 cybersecurity-notes/
 ├── tryhackme/              # Notes and writeups from THM rooms
 ├── hackthebox/             # HTB box walkthroughs
-├── notes/                  # Concept-based notes (XSS, networking, etc.)
-├── cheatsheets/            # Copy-paste command summaries
-├── scripts/                # Python/Bash automation for pentesting/SOC
-└── glossary.md             # My personal infosec dictionary
+├── rootme/                 # Root-Me challenge solutions
+├── overthewire/            # OverTheWire wargame walkthroughs (Bandit, Narnia, etc.)
+├── notes/                  # Concept-based notes (e.g., XSS, privilege escalation)
+├── cheatsheets/            # Quick command and tool reference
+├── scripts/                # Python/Bash tools for automation
+├── glossary.md             # Custom dictionary of terms, tools, and acronyms
+└── README.md               # Main overview and learning tracker
 ```
+
+Each folder contains a README with its purpose, structure, and a reusable template to help with consistency and speed.
 
 ---
 
