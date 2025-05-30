@@ -2,10 +2,7 @@
 
 This folder contains topic-based notes for cybersecurity concepts, tools, techniques, and methodologies.
 
----
-
-## 📁 Folder Structure
-
+### 📁 Structure
 Organize by topic using subfolders or markdown files. Suggested structure:
 
 ```bash
@@ -23,11 +20,9 @@ notes/
 
 ---
 
-## 🧠 Note Format: Use **S.T.E.P.S.**
+## ✍️ Use the S.T.E.P.S. Template Below for Every Note
 
-Use the template below for each new note to stay consistent and make reviewing easier.
-
-### 🧾 S.T.E.P.S. Note Template
+### 🧾 S.T.E.P.S. Note Template (Copy This)
 
 ```markdown
 # Topic Title (e.g., SQL Injection - SQLi)
@@ -65,4 +60,4 @@ for pwd in open("rockyou.txt"):
 ```
 ```
 
-> ✅ This format helps make your notes organized, scannable, and easy to reuse or share.
+> ✅ This format keeps notes consistent and easy to review or share with teammates.
