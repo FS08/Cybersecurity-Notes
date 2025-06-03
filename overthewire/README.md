@@ -10,9 +10,9 @@ Organize by wargame and level:
 overthewire/
 ├── bandit/
 │   ├── level00.md
-│   ├── level01.md
+│   ├── level01-02.md
 └── narnia/
-    └── level01.md
+    └── level01-02.md
 ```
 
 ---
@@ -22,7 +22,7 @@ overthewire/
 Paste this for any OTW level solution:
 
 ````markdown
-# Bandit Level XX → XX+1
+# Bandit Level XX → XX
 
 ## 🎯 Goal
 What must be done to pass this level?
