@@ -13,14 +13,14 @@ cheatsheets/
 └── wireshark.md
 ```
 
-### 📝 What to Include
+## 📝 What to Include
 - Common flags and what they do
 - Examples of usage
 - One-liners or useful scripts
 
 ---
 
-### 🧾 Template (Copy This into a New Cheatsheet)
+## 🧾 Template (Copy This into a New Cheatsheet)
 
 Paste this for a new cheatsheet:
 

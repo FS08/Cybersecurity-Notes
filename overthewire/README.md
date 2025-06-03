@@ -2,28 +2,30 @@
 
 This folder contains walkthroughs and command logs for OverTheWire games (Bandit, Narnia, etc.).
 
----
-
 ## 📁 Structure
+
+Organize by wargame and level:
 
 ```bash
 overthewire/
 ├── bandit/
 │   ├── level00.md
 │   ├── level01.md
-├── narnia/
-│   └── level01.md
+└── narnia/
+    └── level01.md
 ```
 
 ---
 
 ## 🧾 Template (Copy This for Each Level)
 
-```markdown
-# Bandit Level XX → Level XX+1
+Paste this for any OTW level solution:
+
+````markdown
+# Bandit Level XX → XX+1
 
 ## 🎯 Goal
-Describe what the level requires you to do.
+What must be done to pass this level?
 
 ## 🧰 Tools / Commands
 ```bash
@@ -38,6 +40,4 @@ find / -user banditXX -group banditXX -size 33c 2>/dev/null
 ## 🧠 Notes
 - Key command to remember?
 - What was tricky or new?
-
-> Always test in a fresh shell to verify what you learned!
-```
+````

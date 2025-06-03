@@ -2,11 +2,18 @@
 
 This folder contains notes and full writeups for TryHackMe rooms.
 
-### 📁 Structure
-- One subfolder or markdown file per room
-- Use consistent naming like `vulnversity.md`, `owasp-top10.md`
+## 📁 Structure
 
-### 📝 What to Include
+Organize each room as a single markdown file:
+
+```bash
+tryhackme/
+├── vulnversity.md
+├── owasp-top10.md
+└── burp-suite.md
+```
+
+## 📝 What to Include
 - Room objective and topic
 - Key tools and commands used
 - Enumeration steps
@@ -16,9 +23,11 @@ This folder contains notes and full writeups for TryHackMe rooms.
 
 ---
 
-### 🧾 Template (Copy This into a New Room Writeup)
+## 🧾 Template (Copy This into a New Room Writeup)
 
-```markdown
+Paste this template when creating a new TryHackMe note:
+
+````markdown
 # Room Name - [TryHackMe Room Link]
 
 ## 🧠 Summary
@@ -47,4 +56,4 @@ What techniques were used?
 ## 🧠 Lessons Learned
 - What worked, what didn’t?
 - What would I do differently next time?
-```
+````

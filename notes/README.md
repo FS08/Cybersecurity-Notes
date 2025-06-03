@@ -2,8 +2,9 @@
 
 This folder contains topic-based notes for cybersecurity concepts, tools, techniques, and methodologies.
 
-### 📁 Structure
-Organize by topic using subfolders or markdown files. Suggested structure:
+## 📁 Structure
+
+Organize notes by subject:
 
 ```bash
 notes/
@@ -20,25 +21,25 @@ notes/
 
 ---
 
-## ✍️ Use the S.T.E.P.S. Template Below for Every Note
+## 🧾 S.T.E.P.S. Note Template (Copy This into a New Note)
 
-### 🧾 S.T.E.P.S. Note Template (Copy This)
+Paste this template when creating a new concept note:
 
-```markdown
+````markdown
 # Topic Title (e.g., SQL Injection - SQLi)
 
 ## 🧠 S — Summary
-Brief overview of the topic: What is it? Why does it matter? What systems or stages does it affect?
+Brief overview: What is it? Why does it matter? What systems/stages does it affect?
 
 ## 🧰 T — Tools
-List tools used to analyze or exploit the vulnerability, or tools relevant to the concept.
+Tools used to demonstrate or exploit the concept.
 
 ```bash
 sqlmap -u "http://example.com/page?id=1" --dbs
 ```
 
 ## 💣 E — Exploits / Examples
-Actual payloads or procedures used to trigger the vuln or demonstrate the concept.
+Common payloads or procedures used to demonstrate the concept.
 
 ```sql
 ' OR 1=1 --
@@ -51,13 +52,13 @@ Notes from personal experience or labs:
 - What’s important to remember?
 
 ## 🧾 S — Scripts / Snippets
-Include any Bash, Python, or one-liner commands/scripts you wrote or reused.
+Reusable code or commands.
 
 ```python
 for pwd in open("rockyou.txt"):
     if try_login("admin", pwd.strip()):
         print("Password found:", pwd)
 ```
-```
+````
 
 > ✅ This format keeps notes consistent and easy to review or share with teammates.
