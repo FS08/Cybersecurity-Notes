@@ -2,11 +2,16 @@
 
 Quick-access files with commands and tool references.
 
-### 📁 Structure
-- One markdown file per tool/topic:
-  - `nmap.md`
-  - `burp-suite.md`
-  - `wireshark.md`
+## 📁 Structure
+
+Each file is a single tool or theme:
+
+```bash
+cheatsheets/
+├── nmap.md
+├── burp.md
+└── wireshark.md
+```
 
 ### 📝 What to Include
 - Common flags and what they do
@@ -17,26 +22,30 @@ Quick-access files with commands and tool references.
 
 ### 🧾 Template (Copy This into a New Cheatsheet)
 
-```markdown
-# Tool Name (e.g., Nmap Cheatsheet)
+Paste this for a new cheatsheet:
 
-## 🔍 Basic Scan
+````markdown
+# Tool Name Cheatsheet (e.g., Nmap)
+
+## 🔍 Basic Usage
 ```bash
 nmap target
 ```
 
-## 📦 Full TCP Scan
+## ⚙️ Common Flags
+
+| Option | Description |
+|--------|-------------|
+| -sS    | SYN scan    |
+| -sV    | Service detection |
+| -A     | Aggressive scan |
+
+## 🧪 Example
 ```bash
-nmap -p- -sV -T4 target
+nmap -sV -p- -T4 10.10.10.10
 ```
 
-## 🛠 Service Detection
-```bash
-nmap -sV -sC -A target
-```
-
-## 🎯 Common Options
-- `-T4` = faster timing
-- `-sC` = default scripts
-- `-sV` = version detection
-```
+## 💡 Notes
+- Fast scanning tips
+- Scripts or extras
+````
