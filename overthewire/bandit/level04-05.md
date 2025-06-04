@@ -33,4 +33,4 @@ bandit4@bandit:~/
 
 ## 🧠 Notes
 - Tip: if your terminal is messed up, try the ``reset`` command.
-- The command ``file ./<filename>``, allows us to find human-readable files and se other type of files like ``data``.
+- The command ``file ./<filename>``, allows us to find human-readable files and see other type of files like ``data``.
