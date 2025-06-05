@@ -5,7 +5,7 @@ The password for the next level is stored in the ``only human-readable`` file in
 
 ## 🧰 Tools / Commands
 ```bash
-ssh banditXX@bandit.labs.overthewire.org -p 2220
+ssh bandit4@bandit.labs.overthewire.org -p 2220
 ls
 cd inhere
 ls -a
