@@ -12,7 +12,7 @@ cat ./spaces\ in\ this\ filename
 ```
 
 ## 🗝️ Password / Flag
-`MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx`
+Flag Hash : `ac7f563748924c6ca8fe3e2893fa2189ab05b2a1ad731f349edcd00615fc39dc  -`
 
 ## 🧠 Notes
 - Have to add \ for each separate word on the filename.

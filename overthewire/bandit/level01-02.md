@@ -11,7 +11,7 @@ cat ./-
 ```
 
 ## 🗝️ Password / Flag
-`263JGJPfgU6LtdEvgfWU1XP5yac29mFx`
+Flag Hash : `78d34bcd8ea46a1053e6fab74f8857b5b33161373bae597f278f576f29751d0c  -`
 
 ## 🧠 Notes
 - When a file starts or has a dash (-), we have to open it with a ./ before.

@@ -18,7 +18,7 @@ bandit8@bandit:~$ sort data.txt | uniq -u
 ```
 
 ## 🗝️ Password / Flag
-`4CKMh1JI91bUIZZPXDqGanal4xvAg0JM`
+Flag Hash : `0116731280c87fe45c0eca729c3efb905fec7ac48697ae5669e435961f2aa03c  -`
 
 ## 🧠 Notes
 - ``sort``: reads the lines in data.txt and sorts them alphabetically. I used sort first because the uniq command only works on consecutive duplicate lines.

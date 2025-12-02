@@ -24,7 +24,7 @@ The password is dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 ```
 
 ## 🗝️ Password / Flag
-`dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr`
+Flag Hash : `e221ab2001d1e70201bbd833bb9c5dac112b046fb0f20b0a2c06a6843691375a  -`
 
 ## 🧠 Notes
 - The password was encoded using base64, a common ``encoding scheme`` that represents ``binary data in ASCII format``.

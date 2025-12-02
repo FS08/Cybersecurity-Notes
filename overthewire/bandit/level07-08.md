@@ -18,7 +18,7 @@ millionth	dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 ```
 
 ## 🗝️ Password / Flag
-`dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc`
+Flag Hash : `ace40b723a6747d96bc5696d8a9639a559fe244e51349aac17f4d1c70c888e95  -`
 
 ## 🧠 Notes
 - The command grep ``(Global Regular Expression Print)`` that was used for this level, is used to ``scan a file line-wise`` and print those lines that match a given input ``ex: "millionth"``.

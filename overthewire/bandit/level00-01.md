@@ -11,7 +11,7 @@ cat readme
 ```
 
 ## 🗝️ Password / Flag
-`ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If`
+Flag Hash : `15ce9e077dcfdeeb430bada04b6c17f190b3008357221e1f9904bfb88e370791  -`
 
 ## 🧠 Notes
 - Nothing specific
