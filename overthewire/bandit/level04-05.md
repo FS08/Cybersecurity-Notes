@@ -29,7 +29,7 @@ bandit4@bandit:~/
 ```
 
 ## 🗝️ Password / Flag
-`4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw`
+Flag Hash : `0795ff104beb65750497a2a18dda509205d2530cae2501b18851f772dde1508d  -`
 
 ## 🧠 Notes
 - Tip: if your terminal is messed up, try the ``reset`` command.

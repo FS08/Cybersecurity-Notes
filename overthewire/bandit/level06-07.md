@@ -24,7 +24,7 @@ find: ‘/tmp’: Permission denied
 ```
 
 ## 🗝️ Password / Flag
-`morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj`
+Flag Hash : `3df66144ff746066e2e22e51a0382cf9b8d2936652facdc09c047ca57debe241  -`
 
 ## 🧠 Notes
 - The arguments ``-user`` & `` -group`` lets me search for any files owned by the specified user and group.

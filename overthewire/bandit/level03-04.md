@@ -13,7 +13,7 @@ cat ./...Hiding-From-You
 ```
 
 ## 🗝️ Password / Flag
-`2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ`
+Flag Hash : `61160146c88cc8feee7624ef53eef495cc70dffc830f5185340a8e3da3cf0f7d  -`
 
 ## 🧠 Notes
 - When looking for hidden files use the parameter -a when using the command ls.

@@ -21,7 +21,7 @@ bandit9@bandit:~$ strings data.txt | grep ======
 ```
 
 ## 🗝️ Password / Flag
-`FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey`
+Flag Hash : `132ed54569fa789ed50ffc475f591d9076b80dc3921811184af8d2aa463dfad9  -`
 
 ## 🧠 Notes
 - ``strings``: this command looks for printable strings in a file. A string is any sequence of 4 or more printable characters.
