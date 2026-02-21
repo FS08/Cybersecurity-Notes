@@ -1,6 +1,6 @@
 # 🛡️ Cybersecurity Notes & Labs
 
-Welcome to my cybersecurity notes!  
+Welcome to my cybersecurity notes !  
 This repo is a structured, hands-on knowledge base I use to document what I learn while preparing for a cybersecurity internship and solving CTFs.
 
 It includes notes from:
@@ -129,3 +129,5 @@ Below is a categorized learning path I use to track progress and add new goals a
 - [ ] Script: log parser or alert generator
 - [ ] Practice packet analysis with `.pcap` in Wireshark
 - [ ] Record a 5-minute walkthrough or demo
+
+> 🧠 NOTICE : This README may still chance as my learning path changes with time !
