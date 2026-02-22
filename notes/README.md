@@ -14,7 +14,7 @@ notes/
 ├── privilege-escalation/
 │   ├── linux.md
 │   └── windows.md
-├── networking/
+├── network/
 │   ├── tcp-ip.md
 │   └── dns.md
 ```
