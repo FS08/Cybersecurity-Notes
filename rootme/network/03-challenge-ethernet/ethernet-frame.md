@@ -18,12 +18,10 @@ Step-by-step:
 1. I downloaded the challenge file (`ch12.txt`) and ran `file ch12.txt` to see what I was dealing with; the output confirmed it was plain ASCII text.
 2. Opening the file in an editor showed a long string of hexadecimal characters – it looked exactly like the raw packet bytes you’d get from Wireshark when viewing an Ethernet frame.
 3. I copied the hex string into CyberChef and used the **From Hex** recipe. The decoded output was an HTTP request, which immediately told me where to look next.
-
-   ![cyberchef-hex](cyberchef-hex.png)
-4. Scanning the HTTP headers revealed an `Authorization: Basic` line. The challenge PDF about HTTP basic auth reminded me that the string following `Basic` is just Base64-encoded credentials.
+   ![cyberchef-hex](img/cyberchef-hex.png)
+4. Scanning the HTTP headers revealed an `Authorization: Basic` line. The [challenge PDF](docs/EN-HTTP_basic_authentication_and_digest_authentication.pdf) about HTTP basic auth reminded me that the string following `Basic` is just Base64-encoded credentials.
 5. I pasted `Y29uZmk6ZGVudGlhbA==` into CyberChef again, this time using **From Base64**, and the cleartext `password` appeared.
-
-   ![cyberchef-base64](cyberchef-base64.png)
+   ![cyberchef-base64](img/cyberchef-base64.png)
 
 Conclusion: by treating the file as a hex dump of an Ethernet frame and decoding step by step, I recovered the HTTP Basic auth credentials. Since Base64 is easily reversible, anyone capturing the unencrypted frame would obtain the username and password, highlighting the weak security of HTTP Basic authentication without encryption.
 

@@ -30,7 +30,7 @@ ftp.request.command == "PASS"
 ```
 This will show frames where the client sends the `PASS` command; the packet detail contains the password in cleartext (e.g. `Response: PASS <password>`).
 
-![ftp filter](ftp.png)
+![ftp filter](img/ftp.png)
 
 Conclusion: capturing the pcap and filtering for `PASS` quickly reveals the credentials — illustrating why plain FTP is insecure on untrusted networks.
 

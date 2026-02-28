@@ -31,7 +31,7 @@ wireshark ch2.pcap &
    - A new window will open showing the entire TCP stream in readable text
    - The username, password, and all session commands will be visible in plaintext
 
-![alt text](telnet.png)
+![alt text](img/telnet.png)
 
 Conclusion: following the TCP stream instantly reveals credentials — demonstrating why Telnet is critically insecure and should never be used for sensitive communications.
 
